@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "grade": "fine",
+        "couserId": 1,
+        "studentId": 1
+    },
+    {
+        "id": 2,
+        "grade": "very well",
+        "couserId": 2,
+        "studentId": 2
+    },
+    {
+        "id": 3,
+        "grade": "salient",
+        "couserId": 3,
+        "studentId": 3
+    },
+    {
+        "id": 4,
+        "grade": "fine",
+        "couserId": 1,
+        "studentId": 4
+    },
+    {
+        "id": 4,
+        "grade": "fine",
+        "couserId": 2,
+        "studentId": 5
+    },
+    {
+        "id": 4,
+        "grade": "fine",
+        "couserId": 3,
+        "studentId": 6
+    }
+]

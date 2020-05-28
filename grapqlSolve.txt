@@ -1,0 +1,160 @@
+1)--------------------------------------------------------------------------------
+query all students:
+
+{
+  students{
+    name,
+   lastname
+  }
+}
+
+query all Students and courses:
+
+{
+	students{
+    name,
+    lastname,
+    course{
+      name
+    }
+  }
+}
+
+query all courses:
+
+{
+  courses{
+    id,
+    name,
+    description
+  }
+}
+
+query all grades:
+{
+	grades{
+    id,
+    grade,
+    couserId,
+   	studentId
+  }
+}
+query all grades, students and courses
+{
+	grades{
+    id,
+    grade,
+    student{
+      name,
+      lastname,
+      course{
+        name
+      }
+      
+    }
+  }
+}
+
+1-1)---------------------------------------------------------------------------
+
+query by id a student
+
+{ 
+  student(id:3){
+    name,
+    lastname
+  }
+}
+
+query by id a course
+
+{ 
+  course(id:3){
+   	id,
+   	name,
+    description,
+  }
+}
+
+query by id a grade
+
+
+{ 
+	grade(id:4){
+    id,
+    grade,
+   	couserId,
+    studentId
+  }
+}
+-------
+
+{ 
+	grade(id:3){
+    id,
+    grade,
+    student{
+      name,
+      lastname
+    }
+  }
+}
+2)---------------------------------------------------------------------------------
+
+create a Students
+
+mutation{
+  addStudent(name:"flavia",lastname:"zarate",courseId:2){
+   	 id,
+    name,
+    lastname,
+    course{
+      name,
+      description
+    }
+  }
+}
+
+create a course
+mutation{
+  addCourse(name:"University Technician in Hygiene and Safety at Work",description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"){
+    id,
+    name,
+    description
+  }
+  
+}
+create a grades
+
+mutation{
+	addGradre(grade:"fine",courseId:2,studentId:7){
+    id,
+    grade,
+    couserId,
+    studentId,
+  }
+}
+2-2)----------------------------------------------------------------------------------------------------------------
+Delete a student
+mutation {
+	deletStudent(id:1){
+  	id,
+    name,
+    lastname,
+	}
+}
+Delet a course
+mutation {
+	deletCourse(id:3){
+    id,
+    name,
+    description
+  }
+}
+Delet a Grade
+mutation {
+		deletGrade(id:2){
+    id,
+    grade
+  }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "University Technician in Logistics",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+    },
+    {
+        "id": 2,
+        "name": "University Technician in Telecommunications",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+    },
+    {
+        "id": 3,
+        "name": "University Technician in Administration",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+    },
+    {
+        "id": 4,
+        "name": "Bachelor of Technology Applied to Security",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+    }
+]

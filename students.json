@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Juan Pablo",
+        "lastname": "Perez",
+        "courseId": 1
+    },
+    {
+        "id": 2,
+        "name": "Raul Pablo",
+        "lastname": "Perez",
+        "courseId": 2
+    },
+    {
+        "id": 3,
+        "name": "Tatiana lidia",
+        "lastname": "Perez",
+        "courseId": 3
+    },
+    {
+        "id": 4,
+        "name": "Flor",
+        "lastname": "Carrizo",
+        "courseId": 1
+    },
+    {
+        "id": 5,
+        "name": "tania",
+        "lastname": "Saracho",
+        "courseId": 2
+    },
+    {
+        "id": 6,
+        "name": "Daniel",
+        "lastname": "trujillo",
+        "courseId": 3
+    }
+
+]
